@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-nav{
+    height: 10vh;
+    z-index: 999;
+}
+.jumbo-main {
+    background-image: url('trees.jpg');
+    height: 90vh;
+}
