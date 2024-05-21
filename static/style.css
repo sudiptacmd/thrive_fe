@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0px;
@@ -6,11 +7,92 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
-.navbar-nav{
+
+body {
+    background-image: linear-gradient(rgba(242, 180, 129, 0.1), rgba(255, 93, 80, 0.1));
+}
+
+.navbar-nav {
     height: 10vh;
     z-index: 999;
 }
+
+.navbar-brand {
+    font-weight: 700;
+}
+
 .jumbo-main {
     background-image: url('trees.jpg');
     height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 25px;
+}
+
+.jumbo-main h1 {
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.jumbo-main p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38.4px;
+    font-family: "Poppins", sans-serif;
+}
+
+.violet-button {
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(228.51deg, #D74EFE -8.95%, #6802EC 112.98%);
+    padding: 12px 32px;
+    border-radius: 40px;
+}
+
+.card-img-container img {
+    background-color: rgba(104, 2, 236, 1);
+    padding: 24px;
+    border-radius: 8px;
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+.card-container {
+    background: linear-gradient(219.9deg, rgba(0, 204, 255, 0.04) 2.07%, rgba(0, 0, 255, 0.04) 111.62%);
+    width: 400px;
+    height: 240px;
+    border-radius: 12px;
+    border: 0.5px;
+    padding: 20px;
+}
+
+.card-container h2 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.card-container p {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+.top-card-cont {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.card-div-main {
+    margin: 40px;
+    height: 100vh;
 }
