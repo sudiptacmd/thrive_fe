@@ -97,3 +97,35 @@ body {
     justify-content: space-between ;
     align-items: center;
 }
+.jumbo-main-2 img{
+    height: 100vh;
+}
+.content-box-1 {
+    margin: 0px 7vw;
+}
+.spacer-20{
+    height: 20px;
+}
+.ext-violet-button {
+    padding: 15px 80px;
+    text-decoration: none;
+    border-radius: 11px;
+    background: linear-gradient(228.51deg, #D74EFE -8.95%, #6802EC 112.98%);
+    color: white;
+    font-weight: 600;
+}
+.jumbo-main-3 {
+    text-align: center;
+}
+.jumbo-main-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 100vh;
+    padding: 20vh 7vw;
+}
+.long-card {
+    background: linear-gradient(219.9deg, rgba(0, 204, 255, 0.24) 2.07%, rgba(0, 0, 255, 0.24) 111.62%);
+    width: 400px;
+}
