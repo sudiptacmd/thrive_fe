@@ -217,3 +217,33 @@ body {
 .empty ul li {
     list-style-image: url(empty-tick.png);
 }
+.jumbo-main-5 {
+    background-image: url(jm5.png);
+    padding: 70px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+.jumbo-main-5 h2{
+    font-weight: 700;
+}
+footer {
+    background: linear-gradient(219.9deg, rgba(0, 204, 255, 0.1) 2.07%, rgba(30, 186, 254, 0.1) 16.32%, rgba(128, 128, 254, 0.1) 63.42%, rgba(190, 92, 254, 0.1) 96.29%, rgba(215, 78, 254, 0.1) 111.62%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10vw;
+}
+.inline img {
+    padding: 6px;
+}
+.left-foot p{
+    margin-top: 35px;
+}
+.right-foot p{
+    margin-top: 40px;
+}
